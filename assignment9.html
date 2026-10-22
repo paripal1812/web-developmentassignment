@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Professional Job Application</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Professional Job Application Form</h1>
+
+        <p>
+            Apply for an entry-level technology position.
+        </p>
+
+    </header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <!-- Applicant Details -->
+
+            <fieldset>
+
+                <legend>Applicant Details</legend>
+
+                <label for="name">
+                    Full Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">
+                    Email:
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="phone">
+                    Phone:
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                >
+
+                <br><br>
+
+                <label for="location">
+                    Location:
+                </label>
+
+                <input
+                    type="text"
+                    id="location"
+                    name="location"
+                >
+
+            </fieldset>
+
+            <br>
+
+            <!-- Professional Information -->
+
+            <fieldset>
+
+                <legend>Professional Information</legend>
+
+                <label for="position">
+                    Position Applied For:
+                </label>
+
+                <select
+                    id="position"
+                    name="position"
+                    required
+                >
+
+                    <option value="">
+                        Select Position
+                    </option>
+
+                    <option value="data-analyst">
+                        Data Analyst Intern
+                    </option>
+
+                    <option value="python-developer">
+                        Python Developer Intern
+                    </option>
+
+                    <option value="frontend-developer">
+                        Frontend Developer Intern
+                    </option>
+
+                    <option value="ai-ml">
+                        AI/ML Intern
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <label for="experience">
+                    Experience Level:
+                </label>
+
+                <select
+                    id="experience"
+                    name="experience"
+                >
+
+                    <option value="fresher">
+                        Fresher
+                    </option>
+
+                    <option value="0-1">
+                        0-1 Years
+                    </option>
+
+                    <option value="1-2">
+                        1-2 Years
+                    </option>
+
+                    <option value="2+">
+                        2+ Years
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <p>Select Your Skills:</p>
+
+                <input
+                    type="checkbox"
+                    id="python"
+                    name="skills"
+                    value="python"
+                >
+
+                <label for="python">
+                    Python
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="html"
+                    name="skills"
+                    value="html"
+                >
+
+                <label for="html">
+                    HTML
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="javascript"
+                    name="skills"
+                    value="javascript"
+                >
+
+                <label for="javascript">
+                    JavaScript
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="sql"
+                    name="skills"
+                    value="sql"
+                >
+
+                <label for="sql">
+                    SQL
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="powerbi"
+                    name="skills"
+                    value="powerbi"
+                >
+
+                <label for="powerbi">
+                    Power BI
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <!-- Application Information -->
+
+            <fieldset>
+
+                <legend>Application Details</legend>
+
+                <label for="resume">
+                    Upload Resume:
+                </label>
+
+                <input
+                    type="file"
+                    id="resume"
+                    name="resume"
+                    accept=".pdf,.doc,.docx"
+                >
+
+                <br><br>
+
+                <label for="cover-letter">
+                    Cover Letter:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="cover-letter"
+                    name="cover_letter"
+                    rows="8"
+                    cols="60"
+                    placeholder="Write your cover letter here..."
+                ></textarea>
+
+                <br><br>
+
+                <input
+                    type="checkbox"
+                    id="declaration"
+                    name="declaration"
+                    required
+                >
+
+                <label for="declaration">
+                    I confirm that the information provided
+                    is accurate.
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">
+                Submit Application
+            </button>
+
+            <button type="reset">
+                Clear Form
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Job Application Practice
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
