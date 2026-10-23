@@ -1,0 +1,1064 @@
+/* Remove default spacing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    border-bottom: 5px solid #4f8ac9;
+}
+
+
+/* Main container */
+
+main {
+    width: 80%;
+    max-width: 900px;
+
+    margin: 40px auto;
+}
+
+
+/* Common section styling */
+
+section {
+    background-color: white;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Section headings */
+
+section h2 {
+    color: #1e3a5f;
+
+    margin-bottom: 15px;
+
+    border-bottom: 2px solid #4f8ac9;
+
+    padding-bottom: 8px;
+}
+
+
+/* About section */
+
+.about p {
+    font-size: 17px;
+}
+
+
+/* Skills list */
+
+.skills ul {
+    padding-left: 25px;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1e3a5f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #eef2f7;
+
+    color: #333;
+
+    line-height: 1.6;
+
+    padding: 40px 20px;
+}
+
+
+/* Main Resume Container */
+
+.resume {
+    width: 80%;
+
+    max-width: 900px;
+
+    margin: auto;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #1e3a5f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 30px;
+}
+
+
+/* Name */
+
+.header h1 {
+    font-size: 40px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Designation */
+
+.designation {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+
+/* Sections */
+
+section {
+    padding: 25px 35px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Section Heading */
+
+section h2 {
+    color: #1e3a5f;
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 2px solid #4f8ac9;
+}
+
+
+/* Paragraph */
+
+section p {
+    font-size: 16px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Education */
+
+.education-item h3 {
+    color: #333;
+
+    margin-bottom: 5px;
+}
+
+
+/* Skills */
+
+.skills {
+    padding-left: 25px;
+}
+
+.skills li {
+    margin-bottom: 7px;
+}
+
+
+/* Projects */
+
+.project {
+    background-color: #f7f9fc;
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    border-left: 5px solid #4f8ac9;
+
+    border-radius: 6px;
+}
+
+.project h3 {
+    color: #1e3a5f;
+
+    margin-bottom: 6px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1e3a5f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #eef2f7;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Profile Card */
+
+.profile-card {
+    width: 350px;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border: 2px solid #d9e2ec;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+    text-align: center;
+}
+
+
+/* Profile Image */
+
+.profile-image {
+    width: 110px;
+
+    height: 110px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    border: 5px solid #d9e2ec;
+
+    border-radius: 50%;
+
+    font-size: 45px;
+
+    font-weight: bold;
+}
+
+
+/* Name */
+
+.profile-card h1 {
+    color: #1e3a5f;
+
+    font-size: 30px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Designation */
+
+.profile-card h3 {
+    color: #667085;
+
+    font-size: 16px;
+
+    margin-bottom: 18px;
+}
+
+
+/* Description */
+
+.description {
+    color: #555;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* Skills Container */
+
+.skills {
+    margin-bottom: 25px;
+}
+
+
+/* Individual Skill */
+
+.skills span {
+    display: inline-block;
+
+    background-color: #e8f0f8;
+
+    color: #1e3a5f;
+
+    padding: 7px 12px;
+
+    margin: 4px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+
+/* Button */
+
+button {
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+
+/* Button Hover */
+
+button:hover {
+    background-color: #2d5687;
+}
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f7fb;
+
+    color: #222;
+
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+
+.navbar {
+    height: 70px;
+
+    padding: 0 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: white;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Logo */
+
+.logo {
+    color: #1e3a5f;
+
+    font-size: 25px;
+}
+
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+
+.nav-links a {
+    color: #333;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.nav-links a:hover {
+    color: #1e3a5f;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 500px;
+
+    padding: 70px 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 60px;
+
+    background-color: #eaf2fa;
+}
+
+
+/* Hero Content */
+
+.hero-content {
+    max-width: 600px;
+}
+
+
+/* Tagline */
+
+.tagline {
+    color: #4f8ac9;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Main Heading */
+
+.hero h1 {
+    color: #1e3a5f;
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+
+/* Heading Span */
+
+.hero h1 span {
+    display: block;
+
+    color: #4f8ac9;
+}
+
+
+/* Description */
+
+.description {
+    color: #555;
+
+    font-size: 17px;
+
+    margin-bottom: 30px;
+
+    max-width: 550px;
+}
+
+
+/* Buttons Container */
+
+.buttons {
+    display: flex;
+
+    gap: 15px;
+}
+
+
+/* Common Button Styling */
+
+.buttons a {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    border-radius: 7px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* Primary Button */
+
+.primary-btn {
+    background-color: #1e3a5f;
+
+    color: white;
+}
+
+
+.primary-btn:hover {
+    background-color: #2d5687;
+}
+
+
+/* Secondary Button */
+
+.secondary-btn {
+    background-color: white;
+
+    color: #1e3a5f;
+
+    border: 2px solid #1e3a5f;
+}
+
+
+.secondary-btn:hover {
+    background-color: #1e3a5f;
+
+    color: white;
+}
+
+
+/* Hero Card */
+
+.hero-card {
+    width: 330px;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    border: 1px solid #d7e0ea;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+
+/* Card Icon */
+
+.card-icon {
+    width: 90px;
+
+    height: 90px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+
+/* Card Heading */
+
+.hero-card h2 {
+    color: #1e3a5f;
+
+    margin-bottom: 10px;
+}
+
+
+/* Card Paragraph */
+
+.hero-card p {
+    color: #666;
+}
+
+
+/* Features */
+
+.features {
+    padding: 50px 8%;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    background-color: white;
+}
+
+
+/* Individual Feature */
+
+.feature {
+    width: 280px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    background-color: #f9fafc;
+}
+
+
+.feature h3 {
+    color: #1e3a5f;
+
+    margin-bottom: 8px;
+}
+
+
+.feature p {
+    color: #666;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #1e3a5f;
+
+    color: white;
+}
+
+/* =========================
+   Universal Selector
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   Body
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #eef2f7;
+
+    color: #333;
+
+    min-height: 100vh;
+}
+
+
+/* =========================
+   Main Container
+========================= */
+
+.container {
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* =========================
+   Profile Card
+========================= */
+
+.profile-card {
+    width: 400px;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border: 1px solid #d9e2ec;
+
+    border-radius: 18px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    text-align: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+/* =========================
+   Card Hover
+========================= */
+
+.profile-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+
+/* =========================
+   Profile Image
+========================= */
+
+.profile-image {
+    width: 120px;
+
+    height: 120px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    border: 6px solid #dce7f2;
+
+    border-radius: 50%;
+
+    font-size: 48px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   Name
+========================= */
+
+.profile-card h1 {
+    color: #1e3a5f;
+
+    font-size: 32px;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   Role
+========================= */
+
+.role {
+    color: #4f8ac9;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   About
+========================= */
+
+.about {
+    color: #666;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   Section Headings
+========================= */
+
+.profile-card h2 {
+    color: #1e3a5f;
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   Skills
+========================= */
+
+.skills {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 25px;
+}
+
+
+.skills span {
+    padding: 7px 12px;
+
+    background-color: #eaf2fa;
+
+    color: #1e3a5f;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    border: 1px solid #d5e3f0;
+}
+
+
+/* =========================
+   Social Links
+========================= */
+
+.social-links {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+
+.social-links a {
+    padding: 8px 12px;
+
+    color: #1e3a5f;
+
+    background-color: #f3f6fa;
+
+    border: 1px solid #d9e2ec;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    transition: 0.3s;
+}
+
+
+.social-links a:hover {
+    background-color: #1e3a5f;
+
+    color: white;
+}
+
+
+/* =========================
+   Contact Button
+========================= */
+
+.contact-btn {
+    display: inline-block;
+
+    padding: 12px 28px;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.contact-btn:hover {
+    background-color: #2d5687;
+
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+    height: 70px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #1e3a5f;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 500px) {
+
+    .profile-card {
+        width: 100%;
+
+        padding: 25px;
+    }
+
+
+    .profile-card h1 {
+        font-size: 28px;
+    }
+
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+
+}
