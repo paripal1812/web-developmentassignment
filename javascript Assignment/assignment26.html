@@ -1,0 +1,49 @@
+let products = [
+    {
+        name: "Laptop",
+        category: "Electronics",
+        price: 50000
+    },
+    {
+        name: "Phone",
+        category: "Electronics",
+        price: 25000
+    },
+    {
+        name: "Shoes",
+        category: "Fashion",
+        price: 2000
+    },
+    {
+        name: "T-Shirt",
+        category: "Fashion",
+        price: 1000
+    }
+];
+
+
+// Filter electronics
+
+let electronics = products.filter(function(product) {
+    return product.category === "Electronics";
+});
+
+console.log("Electronics:", electronics);
+
+
+// Calculate total price
+
+let total = products.reduce(function(sum, product) {
+    return sum + product.price;
+}, 0);
+
+console.log("Total:", total);
+
+
+// Product names
+
+let names = products.map(function(product) {
+    return product.name;
+});
+
+console.log("Products:", names);
